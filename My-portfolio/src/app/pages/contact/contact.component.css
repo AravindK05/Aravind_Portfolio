@@ -1,0 +1,66 @@
+.contact {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+small {
+  color: var(--accent);
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+button {
+  padding: 12px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: var(--accent);
+}
+
+.success {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 1rem;
+}
